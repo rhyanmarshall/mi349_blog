@@ -15,25 +15,20 @@
     <ol>
         <li>Name - <b>Rhyan Marshall</b></li>
         <li>Email Address - <b>rhyanelisemarshall@gmail.com</b></li>
-        <form action="" method="get" class="blog-form" netlify>
-            <li>
-                <label>Reason for Contact?</label>
-                <select>name="reasons" id="reason">
-                    <option value="">Choose an option</option>
-                    <option value="hi">saying hi, looking for a contractor, interested in an interview</option>
-                </select>
-            <li>
-                <label for="text">Other...</label>
-                <input
-                type="text"
-                id="text"
-                name="text"
-                required minlength="3"
-                maxlength="100"
-                size="10" />
-            </li>
+        <form name="contact" method="POST" netlify>
+          <li>
+            <label for="reason">Reason for contact:</label>
+            <select name="reason" id="reason">
+              <option value="hi">hi, looking for a contractor, interested in an interview</option>
+            </select>
+        </li>
+          <li>
+            <label>Other: <textarea name="message"></textarea></label>
+          </li>
+          <li>
+            <button type="submit">Submit</button>
+          </li>
         </form>
     </ol>
-    <button>Submit</button>
 </body>
 </html>
