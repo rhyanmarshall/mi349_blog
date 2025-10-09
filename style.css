@@ -1,7 +1,13 @@
-head {}
-body {}
-nav {}
-p {}
-h1 {}
-ol {}
-ul {}
+h1 {
+    text-align: center;
+    font-family: cursive, lucida handwriting;
+    font-size: 40px;
+    background-color: pink;
+}
+
+nav {
+    text-align: center;
+    font-family: system-ui;
+    font-size: 24px;
+}
+
