@@ -4,33 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RM Blog</title>
-    <link rel=”stylesheet” href=”style.css”>
+    <link rel="stylesheet" href="style.css">
 </head>
-<h1>Welcome to my Blog</h1>
 <body>
+    <h1>Welcome to my Blog</h1>
     <nav>
         <a href="index.html">Weekend</a> |
         <a href="index2.html">Lions Game Blog</a> |
         <a href="contact.html">Contact</a>
     </nav>
-    <p>Hi there, my name is Rhyan Marshall. I am currently attending Michigan State as a senior studying Information Science and Information Technology. I'm from White Lake Michigan, about an hour away from East Lansing, and I come from a big family that I love very much. I also grew up dancing competitively and have enjoyed dance teaching these past years after graduating high school.
+    <p id="about">Hi there, my name is Rhyan Marshall. I am currently attending Michigan State as a senior studying Information Science and Information Technology. I'm from White Lake Michigan, about an hour away from East Lansing, and I come from a big family that I love very much. I also grew up dancing competitively and have enjoyed dance teaching these past years after graduating high school.
 
     <div>
-        <img src="unnamed (5).jpg" alt="kids" width="300" />
+        <figure class="three">
+            <img src="unnamed (5).jpg" alt="kids" width="300"/>
+            <figcaption>Me at work as a dance teacher</figcaption>
+        </figure> 
     </div>
 
-    <b>Here's a list of a few of my favorite things</b>
+    <b>Here are a few of my favorite things</b>
     </p>
     <ul>
-        <li>my sister</li>
-        <li>spending time with close friends</li>
-        <li>the summer into fall</li>
-        <li>tik tok (not gonna lie)</li>
-        <li>matcha</li>
-        <li>listening to podcasts</li>
-        <li>watching documentaries on Netflix</li>
-        <li>Taylor Swift</li>
+        <div class="container">
+            <div class="column left">
+                <h2 id="flex">People & Things</h2>
+                <li>my sister</li>
+                <li>holiday season</li>
+                <li>tik tok (unfortunately)</li>
+                <li>matcha</li>
+                <li>Taylor Swift</li>
+            </div>
+
+            <div class="column right">
+                <h2 id="flex">Hobbies</h2>
+                <li>spending time with close friends</li>
+                <li>dancing</li>
+                <li>listening to podcasts</li>
+                <li>watching documentaries on Netflix</li>
+            </div>
+        </div>    
     </ul>
-    <p>Just to name a few</p>
+    <p id="about2">Just to name a few</p>
 </body>
 </html>
