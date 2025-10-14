@@ -64,7 +64,7 @@ figure {
 }
 
 footer {
-    float: right bottom;
+    position: left;
     font-family: Arial, sans-serif;
     margin-right: 25px;
 }
