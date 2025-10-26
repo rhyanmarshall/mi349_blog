@@ -188,51 +188,56 @@ ol[pm] {
 }
 
 @media screen and (max-width: 768px) {
+
+  nav a {
+    font-size: 0.9em;
+  }
+
   body {
-    font-size: 16px; /* Make text more readable */
     padding: 10px;
+    font-size: 16px;
   }
 
-  header nav ul {
-    flex-direction: column; /* Stack menu vertically */
-    align-items: center;
-  }
-
-  .post {
-    width: 100%; /* Posts take full width */
-    margin-bottom: 20px;
+  main {
+    width: 100%;
+    margin: 0 auto;
   }
 
   img {
-    width: 100%; /* Prevent image overflow */
+    width: 100%;
     height: auto;
   }
 
-  aside {
-    display: none; /* Hide sidebar if layout is cramped */
+  figure figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  section {
+    margin-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  header h1 {
-    font-size: 1.5em; /* Adjust title size */
-  }
-
-  p {
-    line-height: 1.6; /* Improve readability */
-  }
 
   nav a {
-    display: block;
-    padding: 8px 0;
+    font-size: 0.8em;
   }
 
   footer {
-    text-align: center;
     font-size: 0.9em;
+    text-align: center;
+    padding: 10px;
   }
 
-  .container {
-    flex-direction: column; /* Stack layout vertically */
+  article, main, footer {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
