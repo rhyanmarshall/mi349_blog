@@ -186,3 +186,53 @@ ol[pm] {
   flex-wrap: wrap;
   padding: 1em;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px; /* Make text more readable */
+    padding: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column; /* Stack menu vertically */
+    align-items: center;
+  }
+
+  .post {
+    width: 100%; /* Posts take full width */
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 100%; /* Prevent image overflow */
+    height: auto;
+  }
+
+  aside {
+    display: none; /* Hide sidebar if layout is cramped */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.5em; /* Adjust title size */
+  }
+
+  p {
+    line-height: 1.6; /* Improve readability */
+  }
+
+  nav a {
+    display: block;
+    padding: 8px 0;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  .container {
+    flex-direction: column; /* Stack layout vertically */
+  }
+}
